@@ -15,7 +15,6 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #001540;
- background-size: contain;
 }
 
 /* Style the links inside the navigation bar */
@@ -51,7 +50,6 @@ body {
     height: 600px;
     margin: auto;
     background-image: url("tropical-violet.jpg");
-    background-size: contain;
     float: right;
 }
 
@@ -75,7 +73,6 @@ body {
 
 .sub-container {
     background-image: url("germany.jpg");
- background-size: contain;
      bottom: 10px;
     width: 100%;
     height: 750px;
@@ -103,7 +100,6 @@ p {
 .lead-container {
     background-image: url("ocean.jpeg");
     padding-top: 10vh;
-    background-size: contain;
     width: 100%;
     height: 650px;
 }
@@ -299,7 +295,6 @@ hr {
      padding-top: 10vh;
     color: white;
     background-color: black;
-    background-size: contain;
     height: 360px;
 }
 
