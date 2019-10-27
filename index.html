@@ -5,23 +5,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/style.css" rel="stylesheet">
 	<title>
-	<link rel="icon" type="img/jpg" href="css/tropical-violet2.jpg">
+	<img src="css/tropical-violet2.jpg">
 	Queendalin Nduka
 </title>
 	<meta name="theme-color" content="black">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
-<div class="topnav">
-	 <h1><a href="index.html"  style="font-size: 28px; font-weight: bold; color: white; float: left;">QUEENDALIN NDUKA </a></h1>
+<div class="main">
+	<!-- header, topnav starts here-->
+<div class="topnav" id="myTopnav">
+	 <h1><a href="index.html" class="active" style="font-size: 28px; font-weight: bold; color: white; float: left;">QUEENDALIN NDUKA </a></h1>
   <a href="resume.html">CV</a>
   <a href="contact.html">Contact</a>
   <a href="#">Writings</a>
   <a href="#">Projects</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+ <i class="fa fa-bars" style="text-align: center; font-size: 30px;"></i>
+  </a>
 </div>
-
-	<div class="unbreakable-container">  
+<div class="unbreakable-container">  
 		<div class="main-container">
   <div class="unbreakable">
     <span class="un">UN</span><span class="break">BREAK</span><span class="able">ABLE</span>
@@ -30,8 +33,7 @@
 </div>
 </div>
 
-<span> <br> </span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><br>
-
+<!-- about me starts here-->
 <div class="sub-container">
 	<h1 style="font-size: 35px; font-weight: bold;  padding-left: 60px; color: white;"> ABOUT ME</h1>
 	<div class="container">
@@ -44,7 +46,7 @@
 
 </div>
 </div>
-
+<!-- contact form, say hello starts here-->
 <div class="lead-container">
 <!--<span> <br> </span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><br>-->
 <form name="contact" method="POST" data-netlify="true">
@@ -71,7 +73,7 @@
 </form>
 </div>
 
-
+<!-- footer starts here-->
  <footer class="footer">
  	<h3>QUEENDALIN NDUKA</h3>
 <div style="text-align: center;" class="footer-nav"> 	
@@ -82,10 +84,6 @@
   <a href="#">Writings</a>
   <a href="#">Projects</a>
 </div>
-
-
-
-
 <hr>
      <br>
      <div style="text-align: center;" class="socialMedia">
@@ -100,9 +98,7 @@
         </div>
         <span><br></span>
     </footer>
-
-
-
+<!-- Js scripts starts here-->
 <script type="text/javascript">
 	var hotbod = document.querySelector("body");
 
@@ -114,5 +110,21 @@ window.onload = function() {
     doStuff();
 };
 </script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<!--<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>-->
+
 </body>
 </html>
