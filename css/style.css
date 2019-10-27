@@ -40,6 +40,11 @@ body {
 }
 
 
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
 
 .unbreakable-container
 {
@@ -50,12 +55,11 @@ body {
     height: 600px;
     margin: auto;
     background-image: url("tropical-violet.jpg");
-    float: right;
 }
 
 .main-container {
-    float: middle;
-    padding-left: 500px;
+    
+    padding-left: 510px;
     margin: auto;
 }
 
@@ -73,9 +77,10 @@ body {
 
 .sub-container {
     background-image: url("germany.jpg");
-     bottom: 10px;
+    /*bottom: 10px;*/
     width: 100%;
     height: 750px;
+    padding-top: 10vh;
 }
 
 .container {
@@ -184,7 +189,7 @@ textarea {
 button:hover {
   opacity: 0.8;
 }
-
+/*animation style*/
 .ks
 {
     font-family: 'Anton', sans-serif;
@@ -295,7 +300,7 @@ hr {
      padding-top: 10vh;
     color: white;
     background-color: black;
-    height: 360px;
+    height: 100%;
 }
 
 .fafa-twitter {
@@ -333,10 +338,120 @@ color: white;
     font-size: 35px;
 
 }
+/* topnav animated menu
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
 
-/* If the screen size is 600px or less, set the font-size of <div> to 30px */
-@media only screen and (max-width: 400px) {
-  div.example {
-    font-size: 30px;
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}*/
+
+/* Clear floats after the columns */
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .unbreakabke-container .main-container .unbreakable, .un, .break, .able, .ks, .animate .un, 
+  .animate .break, .container, .socialMedia, .animate .able, .animate-ks, .topnav, .footer, .sub-container, span {
+    width: 100%;
+    margin-top: 0;
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width: 600px) {
+   .container {
+    width: 90%;
+   margin-left: 20px;
+   /*padding-bottom: 25vh;*/
+}   
+}
+@media screen and (max-width: 600px) {
+   .socialMedia a {
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 600px) {
+.form__field {
+     width: 90%;
+    margin-right: 20px;
+}
+}
+@media screen and (max-width: 600px) {
+    .container p {
+
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 600px) {
+.form__field i, textarea, button, h2 {
+    margin-left: 60px;
+
+
+}
+}
+@media screen and (max-width: 600px) {
+   .topnav h1 a .active {
+    font-size: 10px;
+    /*margin-left: 10px;*/
+}
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon, h1 {
+    /*float: right;*/
+    font-size: 14px;
+    display: inline-block;
   }
+  .topnav a.icon {
+    color: white;
+
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+    .main-container {
+        padding-left: 170px;
+    }
+    }
+    @media screen and (max-width: 600px) {
+    .animate .un {
+        font-size: 27px;
+    }
+    .animate .break {
+        font-size: 35px;
+    }
+    .animate .able {
+        font-size: 42px;
+    }
+    .ks {
+        font-size: 33px;
+    }
 }
