@@ -421,6 +421,8 @@ color: white;
     color: white;
 
   }
+ .topnav a.icon:hover {
+  background-color: #001540;
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -439,8 +441,8 @@ color: white;
   }
 }
 @media screen and (max-width: 500px) {
-    .main-container {
-     padding-top: 15vh;
+    .main-container span {
+     padding-top: 30vh;
         padding-left: 170px;
     }
     }
@@ -488,7 +490,7 @@ color: white;
         display: inline-block;
         text-align: center;
     }
-  .main-container {
+  .main-container span {
       padding-top: 15vh;
    padding-left: 200px;
      }
