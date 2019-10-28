@@ -28,10 +28,10 @@ body {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+/*.topnav a:hover {
   background-color: #001540;
   color: white;
-}
+}*/
 
 /* Add a color to the active/current link */
 .topnav a.active {
@@ -365,8 +365,7 @@ color: white;
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .unbreakabke-container .main-container .unbreakable, .un, .break, .able, .ks, .animate .un, 
-  .animate .break, .container, .socialMedia, .animate .able, .animate-ks, .topnav, .footer, .sub-container, span {
+  .unbreakabke-container .main-container .unbreakable, .un, .break, .able, .container, .socialMedia, .topnav, .footer, .sub-container, span {
     width: 100%;
     margin-top: 0;
     font-size: 25px;
@@ -381,8 +380,8 @@ color: white;
 }   
 }
 @media screen and (max-width: 600px) {
-   .socialMedia a {
-    font-size: 20px;
+   .socialMedia a i {
+    font-size: 15px;
 }
 }
 @media screen and (max-width: 600px) {
@@ -398,15 +397,20 @@ color: white;
     }
 }
 @media screen and (max-width: 600px) {
-.form__field i, textarea, button, h2 {
+.form__field button, h2 {
     margin-left: 60px;
 
 
 }
+@media screen and (max-width: 600px) {
+.form__field i, input, textarea {
+    display: inline-block;
+    text-align: center;
+}
 }
 @media screen and (max-width: 600px) {
-   .topnav h1 a .active {
-    font-size: 10px;
+     .active h1 {
+    font-size: 14px;
     /*margin-left: 10px;*/
 }
 }
@@ -421,8 +425,6 @@ color: white;
     color: white;
 
   }
- .topnav a.icon:hover {
-  background-color: #001540;
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -440,10 +442,9 @@ color: white;
     text-align: center;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .main-container {
-     padding-bottom: 65vh;
-        padding-left: 150px;
+        padding-left: 170px;
     }
     }
     @media screen and (max-width: 500px) {
@@ -458,6 +459,8 @@ color: white;
     }
     .ks {
         font-size: 19px;
+        margin-top: 5px;
+
     }
     .container p {
         height: 100%;
@@ -469,6 +472,9 @@ color: white;
 }
 .footer {
     padding-top: 5vh;
+}
+.footer-footer {
+    font-size: 16px;
 }
 }
 
@@ -490,8 +496,4 @@ color: white;
         display: inline-block;
         text-align: center;
     }
-  .main-container span {
-      padding-bottom: 55vh;
-   padding-left: 150px;
-     }
 }
