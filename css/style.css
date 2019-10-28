@@ -442,7 +442,7 @@ color: white;
 }
 @media screen and (max-width: 500px) {
     .main-container {
-     padding-bottom: 25vh;
+     padding-bottom: 55vh;
         padding-left: 170px;
     }
     }
@@ -491,7 +491,7 @@ color: white;
         text-align: center;
     }
   .main-container span {
-      padding-bottom: 15vh;
+      padding-bottom: 55vh;
    padding-left: 170px;
      }
 }
