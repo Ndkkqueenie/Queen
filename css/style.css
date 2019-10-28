@@ -398,17 +398,17 @@ color: white;
 }
 @media screen and (max-width: 600px) {
 .form__field button {
-    margin-left: 60px;
+    margin-left: 50px;
 }
 .form__field h2 {
-margin-left: 60px;
+margin-left: 50px;
 }
-.form__field i {
+/*.form__field i {
     margin-left: 60px;
 }
 .form__field input {
     margin-left: 60px;
-}
+}*/
 }
 /*@media screen and (max-width: 600px) {
 .form__field i, input, textarea {
@@ -488,7 +488,7 @@ margin-left: 60px;
 }
 }
 
- @media screen and (max-width: 800px) {
+ @media screen and (min-width: 750px) {
     span .un {
         font-size: 18px;
     }
