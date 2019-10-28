@@ -398,10 +398,10 @@ color: white;
 }
 @media screen and (max-width: 600px) {
 .form__field button {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .form__field h2 {
-margin-left: 50px;
+margin-left: 70px;
 }
 /*.form__field i {
     margin-left: 60px;
