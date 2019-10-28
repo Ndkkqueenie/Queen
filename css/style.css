@@ -28,10 +28,10 @@ body {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+/*.topnav a:hover {
   background-color: #001540;
   color: white;
-}
+}*/
 
 /* Add a color to the active/current link */
 .topnav a.active {
@@ -187,7 +187,8 @@ textarea {
 }
 
 button:hover {
-  opacity: 0.8;
+  opacity: 0.5;
+  background-color: transparent;
 }
 /*animation style*/
 .ks
@@ -428,7 +429,8 @@ color: white;
   .topnav.responsive a.icon {
     position: absolute;
     right: 30px;
-    top: 50px;
+    top: 40px;
+
   }
   .topnav.responsive a {
     float: none;
@@ -465,4 +467,24 @@ color: white;
 .footer {
     padding-top: 5vh;
 }
+}
+
+ @media screen and (min-width: 700px) {
+    span .un {
+        font-size: 18px;
+    }
+    span .break {
+        font-size: 23px;
+    }
+    span .able {
+        font-size: 27px;
+    }
+    span {
+        font-size: 19px;
+    }
+    .unbreakable {
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+    }
 }
