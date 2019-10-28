@@ -440,6 +440,7 @@ color: white;
 }
 @media screen and (max-width: 500px) {
     .main-container {
+     padding-top: 15vh;
         padding-left: 170px;
     }
     }
@@ -487,4 +488,8 @@ color: white;
         display: inline-block;
         text-align: center;
     }
+  .main-container {
+      padding-top: 15vh;
+   padding-left: 200px;
+     }
 }
