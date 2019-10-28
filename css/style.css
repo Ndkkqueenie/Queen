@@ -28,10 +28,10 @@ body {
 }
 
 /* Change the color of links on hover */
-/*.topnav a:hover {
+.topnav a:hover {
   background-color: #001540;
   color: white;
-}*/
+}
 
 /* Add a color to the active/current link */
 .topnav a.active {
@@ -440,10 +440,10 @@ color: white;
     text-align: center;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .main-container {
-     padding-bottom: 55vh;
-        padding-left: 170px;
+     padding-bottom: 65vh;
+        padding-left: 150px;
     }
     }
     @media screen and (max-width: 500px) {
@@ -492,6 +492,6 @@ color: white;
     }
   .main-container span {
       padding-bottom: 55vh;
-   padding-left: 170px;
+   padding-left: 150px;
      }
 }
