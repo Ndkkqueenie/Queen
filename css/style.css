@@ -441,8 +441,8 @@ color: white;
   }
 }
 @media screen and (max-width: 500px) {
-    .main-container span {
-     padding-bottom: 35vh;
+    .main-container {
+     padding-bottom: 25vh;
         padding-left: 170px;
     }
     }
