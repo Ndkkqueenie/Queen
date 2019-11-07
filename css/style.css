@@ -124,7 +124,7 @@ p {
   color: white;
 }
 /*h2 style*/
-h2 {
+.form__field h2 {
 font-size: 35px; 
 font-weight: bold;  
 /*padding-left: 57px;*/
@@ -132,7 +132,7 @@ font-weight: bold;
 }
 
 /*input style*/
-input {
+.form__field input {
   width: 60%;
   margin: 4px 0;
   padding: 8px;
@@ -149,7 +149,7 @@ input {
 }
 
 /* button style*/
-button {
+.form__field button {
     width: 60%;
   margin: 4px 0;
   padding: 8px;
@@ -165,14 +165,14 @@ button {
 
 }
 /* i style*/
-i {
+.form__field i {
    margin-left: 110px;
    font-size: 16px;
    
    
 }
 /*textarea message style*/
-textarea {
+.form__field textarea {
      width: 60%;
      height: 70px;
     margin-right: 85px;
@@ -186,7 +186,7 @@ textarea {
   border-bottom-color: purple;
 }
 
-button:hover {
+.form__field button:hover {
   opacity: 0.5;
   background-color: transparent;
 }
@@ -396,6 +396,16 @@ color: white;
     text-align: center;
 }
 }*/
+
+@media screen and (min-width: 250px) and (max-width: 510px) {
+.topnav h1 {
+font-size: 12;
+}
+.topnav a{
+  font-size: 10;
+}
+}
+
 @media screen and (max-width: 600px) {
      .active h1 {
     font-size: 14px;
@@ -431,20 +441,6 @@ color: white;
   }
 }
 
-@media screen and (max-width: 500px) {
-    .container p {
-        height: 100%;
-        font-size: 16px;
-    }
-.footer {
-    padding-top: 5vh;
-}
-.footer-footer {
-    font-size: 16px;
-}
-}
-
-
 @media screen and (min-width: 250px) and (max-width: 610px) {
 .main-container {
 padding-left: 80px;
@@ -476,20 +472,51 @@ float: none;
   }
 }
 
-@media screen and (min-width: 250px) and (max-width: 610px) {
+@media screen and (min-width: 250px) and (max-width: 510px) {
 .form__field button {
 margin-left: 80px;
   }
 }
 
-@media screen and (min-width: 250px) and (max-width: 610px) {
+@media screen and (min-width: 250px) and (max-width: 510px) {
 .form__field h2 {
 margin-left: 25%;
+font-size: 20px;
   }
 }
 
-@media screen and (min-width: 250px) and (max-width: 610px) {
+@media screen and (min-width: 250px) and (max-width: 510px) {
 .form__field i {
-  margin-left: 85px;
+  margin-left: 45px;
+}
+}
+
+@media screen and (min-width: 510px) and (max-width: 610px) {
+.form__field i {
+margin-left: 85px;
+  }
+  .form__field button {
+    margin-left: 80px;
+  }
+  .form__field h2 {
+    margin-left: 25%;
+  }
+}
+/* @media screen and (min-width: 250px) and (max-width: 610px) {
+.form__field {
+
+}
+}*/
+
+@media screen and (max-width: 500px) {
+    .container p {
+        height: 100%;
+        font-size: 16px;
+    }
+.footer {
+    padding-top: 5vh;
+}
+.footer-footer {
+    font-size: 16px;
 }
 }
