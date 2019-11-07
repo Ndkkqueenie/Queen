@@ -503,26 +503,33 @@ margin-left: 85px;
 }
 @media screen and (min-width: 250px) and (max-width: 510px) {
 .form__field input {
-width: 190px;
+width: 180px;
  margin: 2px 0;
  padding: 6px;
- margin-left: 25px;
+ margin-left: 10px;
  float: none;
  }
  .form__field textarea {
-  width: 190px;
+  width: 180px;
  margin: 2px 0;
  padding: 6px;
- margin-left: 25px;
+ margin-left: 10px;
  float: none;
  }
 }
 
-@media screen and (max-width: 500px) {
-    .container p {
-        height: 100%;
-        font-size: 16px;
+@media screen and (min-width: 250px) and (max-width: 510px) {
+.footer h3 {
+   font-size: 16px;
     }
+
+.footer-nav a {
+font-size: 13px;
+    }
+.socialMedia {
+margin-left: 15px;
+}
+
 .footer {
     padding-top: 5vh;
 }
