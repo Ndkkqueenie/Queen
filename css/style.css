@@ -56,7 +56,6 @@ body {
 }
 
 .main-container {
-    
     padding-left: 510px;
     margin: auto;
 }
@@ -498,7 +497,7 @@ margin-left: 85px;
 .form__field input {
 width: 180px;
  margin: 0;
- margin-top: 10px;
+ padding-top: 1vh;
  padding: 6px;
  margin-left: 10px;
  float: none;
