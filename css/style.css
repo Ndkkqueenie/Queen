@@ -498,14 +498,14 @@ margin-left: 85px;
 @media screen and (min-width: 250px) and (max-width: 510px) {
 .form__field input {
 width: 180px;
- margin: 2px 0;
+ margin: 0;
  padding: 6px;
  margin-left: 10px;
  float: none;
  }
  .form__field textarea {
   width: 180px;
- margin: 2px 0;
+ margin: 0;
  padding: 6px;
  margin-left: 10px;
  float: none;
@@ -533,7 +533,16 @@ margin-left: 15px;
 }
 
 @media screen and (min-width: 250px) and (max-width: 610px) {
-.sub-container h1 {
+ .unbreakable-container{
+ height: 90%;
+ }
+ .sub-container {
+ height: 90%;
+ }
+ .container {
+ height: 70%;
+ }
+ .sub-container h1 {
  font-size: 16px;
 }
  .container img {
@@ -542,7 +551,7 @@ margin-left: 15px;
   size: 30%;
  }
  .container p {
- font-size: 14px;
+ font-size: 16px;
  }
 }
  
