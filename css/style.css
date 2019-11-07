@@ -365,7 +365,7 @@ color: white;
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .unbreakabke-container .main-container .unbreakable, .un, .break, .able, .container, .socialMedia, .topnav, .footer, .sub-container, span {
+  .container, .socialMedia, .topnav, .footer, .sub-container, span {
     width: 100%;
     margin-top: 0;
     font-size: 25px;
@@ -385,30 +385,10 @@ color: white;
 }
 }
 @media screen and (max-width: 600px) {
-.form__field {
-     width: 90%;
-    margin-right: 20px;
-}
-}
-@media screen and (max-width: 600px) {
     .container p {
 
         font-size: 22px;
     }
-}
-@media screen and (max-width: 600px) {
-.form__field button {
-    margin-left: 60px;
-}
-.form__field h2 {
-margin-left: 70px;
-}
-/*.form__field i {
-    margin-left: 60px;
-}
-.form__field input {
-    margin-left: 60px;
-}*/
 }
 /*@media screen and (max-width: 600px) {
 .form__field i, input, textarea {
@@ -450,36 +430,12 @@ margin-left: 70px;
     text-align: center;
   }
 }
-@media screen and (max-width: 500px) {
-    .main-container {
-        padding-left: 170px;
-    }
-    }
-    @media screen and (max-width: 500px) {
-    .animate .un {
-        font-size: 18px;
-    }
-    .animate .break {
-        font-size: 23px;
-    }
-    .animate .able {
-        font-size: 27px;
-    }
-    .ks {
-        font-size: 19px;
-        margin-top: 5px;
 
-    }
-}
 @media screen and (max-width: 500px) {
     .container p {
         height: 100%;
         font-size: 16px;
     }
-    .lead-container i, h2, button {
-        text-align: center;
-        font-size: 16px;
-}
 .footer {
     padding-top: 5vh;
 }
@@ -488,26 +444,52 @@ margin-left: 70px;
 }
 }
 
- @media screen and (min-width: 750px) {
-    span .un {
-        font-size: 18px;
+
+@media screen and (min-width: 250px) and (max-width: 610px) {
+.main-container {
+padding-left: 80px;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 510px) {
+    .animate .un {
+        font-size: 20px;
     }
-    span .break {
-        font-size: 23px;
+    .animate .break {
+        font-size: 25px;
     }
-    span .able {
-        font-size: 27px;
+    .animate .able {
+        font-size: 30px;
     }
-    span {
-        font-size: 19px;
+    .ks {
+        font-size: 24px;
+        margin-top: 2px;
+
     }
-    .unbreakable {
-        margin: auto;
-        display: inline-block;
-        text-align: center;
-    }
-    .main-container {
-        padding-left: 110px;
-        padding-top: 10vh;
-    }
+}
+
+ @media screen and (min-width: 250px) and (max-width: 610px) {
+.form__field {
+margin-left: 20px;
+width: 90%;
+float: none;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 610px) {
+.form__field button {
+margin-left: 80px;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 610px) {
+.form__field h2 {
+margin-left: 25%;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 610px) {
+.form__field i {
+  margin-left: 85px;
+}
 }
