@@ -451,8 +451,7 @@ padding-left: 80px;
     .ks {
         font-size: 24px;
         margin-top: 2px;
-
-    }
+}
 }
 
  @media screen and (min-width: 250px) and (max-width: 610px) {
@@ -532,10 +531,10 @@ margin-left: 15px;
 
 @media screen and (min-width: 250px) and (max-width: 510px) {
  .unbreakable-container{
- height: 98%;
+ height: 100%;
  }
  .sub-container {
- height: 98%;
+ height: 100%;
  }
  .container {
  height: 80%;
@@ -553,3 +552,15 @@ margin-left: 15px;
  }
 }
  
+@media screen and (min-width: 710px) and (max-width: 850px) {
+ .main-container {
+padding-left: 80px;
+  }
+}
+ 
+ @media screen and (min-width: 850px) and (max-width: 1090px) {
+ .main-container {
+padding-left: 80px;
+  padding-top: 30vh;
+  }
+}
