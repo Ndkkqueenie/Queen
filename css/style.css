@@ -514,7 +514,7 @@ margin-left: 85px;
  .form__field textarea {
    width: 50%;
   margin-right: 40px;
- float: none;
+ float: right;
  }
 }
 
