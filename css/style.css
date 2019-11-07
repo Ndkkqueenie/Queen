@@ -508,7 +508,7 @@ margin-left: 85px;
 @media screen and (min-width: 250px) and (max-width: 510px) {
 .form__field input, .form__field textarea {
  width: 50%;
-  margin-right: 20%;
+  margin-right: 50%;
  }
 }
 
