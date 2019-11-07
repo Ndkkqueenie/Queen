@@ -503,13 +503,14 @@ margin-left: 85px;
 }
 @media screen and (min-width: 250px) and (max-width: 510px) {
 .form__field input {
-width: 50%;
-  display: inline-block;
-  text-align: center;
+width: 30px;
+ margin: 2px 0;
+ padding: 6px;
+ margin-left: 20px;
  float: none;
  }
  .form__field textarea {
-   width: 50%;
+   width: 45%;
   display: inline-block;
   text-align: center;
  float: none;
