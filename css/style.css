@@ -398,7 +398,7 @@ color: white;
 }*/
 
 @media screen and (min-width: 250px) and (max-width: 510px) {
-.topnav h1 {
+.active h1 {
 font-size: 12;
 }
 .topnav a{
@@ -502,10 +502,9 @@ margin-left: 85px;
     margin-left: 25%;
   }
 }
-
 @media screen and (min-width: 250px) and (max-width: 610px) {
 .form__field input {
-  margin-left: 50px;
+  margin-left: 50%;
  }
 }
 
