@@ -474,7 +474,7 @@ float: none;
 
 @media screen and (min-width: 250px) and (max-width: 510px) {
 .form__field button {
-margin-left: 80px;
+margin-left: 40px;
   }
 }
 
@@ -502,11 +502,12 @@ margin-left: 85px;
     margin-left: 25%;
   }
 }
-/* @media screen and (min-width: 250px) and (max-width: 610px) {
-.form__field {
 
+@media screen and (min-width: 250px) and (max-width: 610px) {
+.form__field input {
+  margin-left: 50px;
+ }
 }
-}*/
 
 @media screen and (max-width: 500px) {
     .container p {
