@@ -477,7 +477,9 @@ font-size: 20px;
 
 @media screen and (min-width: 250px) and (max-width: 510px) {
 .form__field i {
-  margin-left: 25px;
+  margin-left: 15px;
+ line-height: normal;
+outline: none;
 }
 }
 
@@ -554,7 +556,7 @@ padding-left: 80px;
  
  @media screen and (min-width: 850px) and (max-width: 1090px) {
  .main-container {
-padding-left: 280px;
-  padding-top: -10vh;
+padding-left: 320px;
+  padding-bottom: 20vh;
   }
 }
