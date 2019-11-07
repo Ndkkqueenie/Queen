@@ -530,12 +530,6 @@ margin-left: 15px;
 }
 
 @media screen and (min-width: 250px) and (max-width: 510px) {
- .unbreakable-container{
- height: 100%;
- }
- .sub-container {
- height: 100%;
- }
  .container {
  height: 80%;
  }
@@ -560,7 +554,7 @@ padding-left: 80px;
  
  @media screen and (min-width: 850px) and (max-width: 1090px) {
  .main-container {
-padding-left: 80px;
-  padding-top: 30vh;
+padding-left: 280px;
+  padding-top: -10vh;
   }
 }
