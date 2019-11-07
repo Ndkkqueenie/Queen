@@ -516,19 +516,33 @@ width: 180px;
 .footer h3 {
    font-size: 14px;
     }
-
 .footer-nav a {
 font-size: 12px;
     }
 .socialMedia a i{
-margin-left: 20px;
+margin-left: 15px;
  font-size: 12px;
 }
-
 .footer {
     padding-top: 5vh;
 }
 .footer-footer {
     font-size: 14px;
+ margin-bottom: 10px;
 }
 }
+
+@media screen and (min-width: 250px) and (max-width: 610px) {
+.sub-container h1 {
+ font-size: 16px;
+}
+ .container img {
+ width: 20%;
+  border-radius: 40%;
+  size: 30%;
+ }
+ .container p {
+ font-size: 14px;
+ }
+}
+ 
