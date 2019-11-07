@@ -480,6 +480,7 @@ font-size: 20px;
   margin-left: 15px;
  line-height: normal;
 outline: none;
+ margin-top: 10px; 
 }
 }
 
@@ -518,7 +519,7 @@ width: 180px;
 .footer-nav a {
 font-size: 12px;
     }
-.socialMedia a i{
+.socialMedia a i {
 margin-left: 15px;
  font-size: 12px;
 }
@@ -557,6 +558,7 @@ padding-left: 80px;
  @media screen and (min-width: 850px) and (max-width: 1090px) {
  .main-container {
 padding-left: 320px;
-  padding-bottom: 20vh;
+  padding-bottom: 50vh;
+  top: 30vh;
   }
 }
