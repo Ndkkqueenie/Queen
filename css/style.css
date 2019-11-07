@@ -503,17 +503,17 @@ margin-left: 85px;
 }
 @media screen and (min-width: 250px) and (max-width: 510px) {
 .form__field input {
-width: 60px;
+width: 120px;
  margin: 2px 0;
  padding: 6px;
- margin-left: 40px;
+ margin-left: 45px;
  float: none;
  }
  .form__field textarea {
-  width: 60px;
+  width: 120px;
  margin: 2px 0;
  padding: 6px;
- margin-left: 40px;
+ margin-left: 45px;
  float: none;
  }
 }
