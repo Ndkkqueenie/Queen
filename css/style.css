@@ -382,8 +382,8 @@ color: white;
 }
 
 @media screen and (min-width: 250px) and (max-width: 510px) {
-   p {
-    line-height: normal;
+   .container p {
+   line-height: normal;
    font-size: 12px;
     }
     .form__field h2 {
