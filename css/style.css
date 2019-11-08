@@ -95,7 +95,6 @@ body {
 p {
     color: white;
     line-height: 1.5em;
-    font-size: 26px;
 }
 
 
@@ -389,8 +388,7 @@ color: white;
     .form__field h2 {
    font-size: 16px;
    margin: 0;
-   display: inline-block;
-   text-align: center;
+     margin-left: 30px;
     }
 }
 
