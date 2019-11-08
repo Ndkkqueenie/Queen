@@ -5,10 +5,11 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
   <link rel="icon" type="img/jpg" href="css/tropical-violet2.jpg">
   <title>Queendalin - Contact</title>
   <meta name="theme-color" content="black">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;
 background-image: url(img/Hydrangeas.jpg);}
@@ -62,9 +63,28 @@ h3 {
   margin-bottom: 10px;
   margin-top: 5px;
 }
+
+@media screen and (min-width: 250px) and (max-width: 610px) {
+.container {
+ margin-right: 15px;
+  }
+}
+
 </style>
 </head>
 <body>
+  <div class="topnav" id="myTopnav">
+   
+   <div class="header"><a href="index.html" class="active" style="margin-right: 25%;">QUEENDALIN NDUKA </a></div>
+  <a href="cv.html">CV</a>
+  <a href="contacts.html">Contact</a>
+  <a href="#">Writings</a>
+  <a href="projects.html">Projects</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+</div>
 
 <div class="container">
 <h3>Contact Me</h3>
@@ -282,6 +302,16 @@ h3 {
     <input type="submit" value="Submit">
   </form>
 </div>
-
+<script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>
