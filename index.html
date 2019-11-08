@@ -2,7 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="icon" type="img/jpg" href="css/tropical-violet2.jpg">
 	<title>
@@ -15,14 +18,16 @@
 <div class="main">
 	<!-- header, topnav starts here-->
 <div class="topnav" id="myTopnav">
-	 <h1><a href="index.html" class="active" style="float: left;">QUEENDALIN NDUKA </a></h1>
-  <a href="resume.html">CV</a>
-  <a href="contact.html">Contact</a>
+	 
+   <div class="header"><a href="index.html" class="active" style="margin-right: 25%;">QUEENDALIN NDUKA </a></div>
+  <a href="https://docs.google.com/document/d/1ueGt15tmvYjnk2Mfb_LwBxRxxwVLo8QRxd9aEnKch0g/edit?usp=sharing">CV</a>
+  <a href="contacts.html">Contact</a>
   <a href="#">Writings</a>
-  <a href="#">Projects</a>
+  <a href="projects.html">Projects</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
- <i class="fa fa-bars" style="text-align: center; font-size: 25px; padding: 0px; border: none;"></i>
+    <i class="fa fa-bars"></i>
   </a>
+
 </div>
 
 <div class="unbreakable-container">  
@@ -41,8 +46,7 @@
 		<img src="https://res.cloudinary.com/dgoh40pqo/image/upload/v1571189807/pp_ozfk6r.jpg" alt="Avatar" class="avatar" style="
   margin: 30px 0 18px 0;
   width: 20%;
-  border-radius: 50%;
-  size: 20%; float: left;">
+  border-radius: 50%; float: left;">
 <p> Onyinyechi Queendalin Nduka is a Front-end developer, STEM advocate, Vue vixens member and a technical writer. Queendalin is a self taught programmer and an aspiring Software Engineer. She is passionate about technologies and bringing her ideas and innovation to the world. She is a core member of the Women TechMakers worldwide and SheCodeAfrica, a non profit organisation to empower and support the female tech enthusiast in IT Sector.</p>
 
 </div>
@@ -50,25 +54,23 @@
 <!-- contact form, say hello starts here-->
 <div class="lead-container">
 <!--<span> <br> </span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><span><br></span><br>-->
+
 <form name="contact" method="POST" data-netlify="true">
  <div class="form__field">
 	
   <h2>SAY HELLO</h2>
-
+<div>
 <i class="material-icons">Name</i><br>
       <input type="text" name="Subject" required>
-    
-<span><br></span>
-	
+  </div>  
+<div>
     <i class="material-icons">Email</i><br>
       <input type="email" name="email" required>
-
-      <span><br></span>
-
+</div>
+<div>
         <i class="material-icons">Message</i><br>
-<textarea minlength="60" name="Message" required></textarea>
-    
-    <span><br></span><br>
+<textarea minlength="10" name="Message" required></textarea>
+    </div>
     
     <button type="submit" class="submit"  name="submit">SEND</button>
     
@@ -76,16 +78,17 @@
 </form>
 </div>
 
+
 <!-- footer starts here-->
  <footer class="footer">
  	<h3>QUEENDALIN NDUKA</h3>
 <div style="text-align: center;" class="footer-nav"> 	
 
 
-  <a href="resume.html">CV</a>
-  <a href="contact.html">Contact</a>
+  <a href="https://docs.google.com/document/d/1ueGt15tmvYjnk2Mfb_LwBxRxxwVLo8QRxd9aEnKch0g/edit?usp=sharing">CV</a>
+  <a href="contacts.html">Contact</a>
   <a href="#">Writings</a>
-  <a href="#">Projects</a>
+  <a href="projects.html">Projects</a>
 </div>
 <hr>
      <br>
@@ -114,6 +117,7 @@ window.onload = function() {
 };
 </script>
 <script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -123,11 +127,6 @@ function myFunction() {
   }
 }
 </script>
-<!--<script>
-function myFunction(x) {
-  x.classList.toggle("change");
-}
-</script>-->
 
 </body>
 </html>
