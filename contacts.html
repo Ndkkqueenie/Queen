@@ -91,7 +91,7 @@ h3 {
 
 <div class="container">
 <h3>Contact Me</h3>
-  <form name="contact"  data-netlify="true" onsubmit="return validateForm()" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+  <form name="contact" data-netlify="true" onsubmit="return validateForm()" method="POST" required>
     <label for="fname">Full Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
