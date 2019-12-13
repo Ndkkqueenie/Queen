@@ -90,7 +90,11 @@ body {
  margin-left: 60px;
 }
 
-
+@media screen and (min-width: 610px) and (max-width: 810px) {
+   .container p {
+   font-size: 22px;
+    }
+}
 
 p {
     color: white;
@@ -177,14 +181,6 @@ p {
    font-size: 16px;
     }
 }
-/*@media screen and (min-width: 250px) and (max-width: 610px) {
-  .form__field i {
-margin-left: 100px;
-  }
-  .form__field button {
-margin-left: 100px;
-  }
-}*/
 
 .form__field button:hover {
   opacity: 0.5;
@@ -351,23 +347,6 @@ color: white;
     margin-right: 20px;
   }
 }
-
-/*@media screen and (min-width: 250px) and (max-width: 510px) {
-   .container p {
-   line-height: normal;
-   font-size: 12px;
-    }
-    .form__field h2 {
-   font-size: 16px;
-   margin: 0;
-     margin-left: 30px;
-    }
-}
-@media screen and (max-width: 600px) {
-  .container p{
-    font-size: 22px
-  }
-}*/
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
