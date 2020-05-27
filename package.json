@@ -1,0 +1,22 @@
+{
+  "name": "queen",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ndkkqueenie/Queen.git"
+  },
+  "author": "Queendalin Nduka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ndkkqueenie/Queen/issues"
+  },
+  "homepage": "https://github.com/Ndkkqueenie/Queen#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

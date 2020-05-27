@@ -20,7 +20,7 @@
 <div class="topnav" id="myTopnav">
    
    <div class="header"><a href="index.html" class="active" style="margin-right: 20%;">QUEENDALIN NDUKA </a></div>
-  <a href="Queenresume.html">CV</a>
+  <a href="Queen-resume.pdf">CV</a>
   <a href="contacts.html">Contact</a>
   <a href="writting.html">Writings</a>
   <a href="projects.html">Projects</a>
@@ -104,47 +104,9 @@
         <span><br></span>
     </footer>
 <!-- Js scripts starts here-->
-<script type="text/javascript">
-  var hotbod = document.querySelector("body");
-
-function doStuff() {
-    hotbod.className += " animate";
-}
-
-window.onload = function() {
-    doStuff();
-};
-</script>
-<script>
-  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-  <script>
-    function validateForm() {
-  var x = document.forms["sayHello"]["fname"].value;
-  var y = document.forms["sayHello"]["email"].value;
-  var z = document.forms["sayHello"]["message"].value;
-  if (x == "") {
-    alert("Please i would love to know your name");
-    return false;
-  }
-  if (y == "") {
-  alert("Please input your Email");
-  return false;
-  }
-  if (z == "") {
-  alert("Please write a message");
-  return false;
-  }
-}
-  </script>
+<script type="text/javascript" src="dist/animate.js"></script>
+<script src="dist/topNav.js"></script>
+<script src="dist/formValidate.js"></script>
 
 </body>
 </html>
