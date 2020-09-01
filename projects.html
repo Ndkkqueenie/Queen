@@ -1,184 +1,177 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link rel="icon" type="img/jpg" href="./img/me1.jpg">
-<link href="css/header.css" rel="stylesheet">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: black;
-  color: #f1f1f1;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
-h5, p {
-  color: #1a1a2e !important;
-}
-
-hr {
-  color: #f1f1f1;
-  border: 2px solid #f1f1f1;
-}
-
-.row {
-  margin: 8px -16px;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.card {
-  margin-bottom: 18px !important;
-  width: 500px !important;
-}
-
-img {
-  width: 500px !important;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="icon" type="img/jpg" href="./img/me1.jpg">
+  <link href="css/header.css" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      background-color: black;
+      color: #f1f1f1;
+    }
+    h1 {
+      font-size: 50px;
+      word-break: break-all;
+    }
+    h5, p {
+      color: #1a1a2e !important;
+    }
+    hr {
+      color: #f1f1f1;
+      border: 2px solid #f1f1f1;
+    }
+    .row {
+      margin: 8px -16px;
+    }
+    /* Clear floats after rows */ 
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .card {
+      margin-bottom: 18px !important;
+      width: 500px !important;
+    }
+    img {
+      width: 500px !important;
+    }
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+      }
+    }
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
-
-<!-- MAIN (Center website) -->
-<div class="container">
-  <div class="topnav" id="myTopnav">
-   
-    <div class="header">
-      <a href="index.html" class="active" style="margin-right: 20%;">QUEENDALIN NDUKA </a>
+  <!-- MAIN (Center website) -->
+  <div class="container">
+    <!-- header, topnav starts here-->
+    <div class="topnav" id="myTopnav"> 
+      <div class="header">
+        <a href="index.html" class="active" style="margin-right: 20%;">QUEENDALIN NDUKA </a>
+      </div>
+      <a href="Queen-resume.pdf">CV</a>
+      <a href="contacts.html">Contact</a>
+      <a href="#">Projects</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>  <span><br></span>
+    <h1>PROJECT GALLERY</h1>
+    <hr>
+    <h2>PORTFOLIO (Mostly Personal, Few Client's)</h2>  <span><br></span>
+    <!-- Portfolio Gallery Grid -->
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card">
+          <img src="./img/finpro-dashboard.png" class="card-img-top" alt="finpro-dashboard" height="300px !important" width="300px !important" style="float: left !important;">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://finpro-mng.netlify.app">FinPro</a></h5>
+            <p class="card-text"> Financial/ Expenses Tracker</p>
+            <p class="card-text"><small class="text-muted"><b>HTML5/CSS, sass, Bootstrap, JavaScript, jQuery</b></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="./img/visitor-log.png" class="card-img-top" alt="visitor-log" height="300px !important">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://access-tracking-app.eu-gb.mybluemix.net/ui.html"> Visitor log/ Tracker</a></h5>
+            <p class="card-text">Corporate SPA Visitor's register / log (IBM inovator project)</p>
+            <p class="card-text"><small class="text-muted"><b>HTML/CSS, Bootstrap, JavaScript, Angular, IBM cloud & Database</b></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="./img/vation.png" class="card-img-top" alt="vation" height="300px !important">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://github.com/Ndkkqueenie/vation.git">Vation Mobile App</a></h5>
+            <p class="card-text">Fitness Android App for Vation</p>
+            <p class="card-text"><small class="text-muted"><b>React Native, JavaScript, expo, firebase</b></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="./img/3dmodel.png" class="card-img-top" alt="3dmodel" height="300px !important">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://github.com/Ndkkqueenie/vation.git">Vation Mobile App</a></h5>
+            <p class="card-text">3dmodel Display Android App </p>
+            <p class="card-text"><small class="text-muted"><b>React Native, JavaScript, expo, three.js</b></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="./img/confusion.png" class="card-img-top" alt="confusion" height="300px !important">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://github.com/Ndkkqueenie/react-native-conFusion.git">Ristorante con Fusion (Mobile App)</a></h5>
+            <p class="card-text">Android App Project for HKUST</p>
+            <p class="card-text"><small class="text-muted"><b>React Native, JavaScript, Redux, expo, express, Nodejs, Mongodb</b></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="./img/localhost-home1.png" class="card-img-top" alt="confusion-web" height="300px !important">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://ristorante-foods.netlify.app"> Ristorante con Fusion (Web App)</a></h5>
+            <p class="card-text">Web App for HKUST</p>
+            <p class="card-text"><small class="text-muted"><b>HTMl/CSS, sass, JavaScript, React, Redux, Nodejs, json-server</b></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="./img/queendalin-dev.png" class="card-img-top" alt="queendalin-dev" height="300px !important">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://queendalin-dev.netlify.app"> Queendalin Nduka</a></h5>
+            <p class="card-text">My Portfolio</p>
+            <p class="card-text"><small class="text-muted"><b>HTML/CSS, Bootstrap, JavaScript, jQuery, Netlify form</b></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="./img/learn-smart.png" class="card-img-top" alt="learn-smart" height="300px !important">
+          <div class="card-body">
+            <h5 class="card-title">learnSmart</h5>
+            <p class="card-text">Browser Extension to generate short Quix / Note (Team project)</p>
+            <p class="card-text"><small class="text-muted">HTML/CSS, JavaScript, Python, AWS tools etc</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="./img/note-app.png" class="card-img-top" alt="note-app" height="300px !important">
+          <div class="card-body">
+            <h5 class="card-title"><a href="notes-taking.netlify.app"> Simple Note App</a></h5>
+            <p class="card-text">Simple Note App</p>
+            <p class="card-text"><small class="text-muted">HTML/CSS, Bootstrap, JavaScript, jQuery, localStorage</small></p>
+          </div>
+        </div>
+      </div>
     </div>
-    <a href="Queen-resume.pdf">CV</a>
-    <a href="contacts.html">Contact</a>
-    <a href="projects.html">Projects</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
+    <!-- END GRID -->
+    <!-- END MAIN -->
   </div>
-
-  <span><br></span>
-  <h1>PROJECT GALLERY</h1>
-  <hr>
-    
-  <h2>PORTFOLIO (Mostly Personal, Few Client's)</h2>
-  <span><br></span>
-  <!-- Portfolio Gallery Grid -->
-  <div class="row row-cols-1 row-cols-md-2">
-    <div class="col mb-4">
-      <div class="card">
-        <img src="./img/finpro-dashboard.png" class="card-img-top" alt="finpro-dashboard" height="300px !important" width="300px !important" style="float: left !important;">
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://finpro-mng.netlify.app">FinPro</a></h5>
-          <p class="card-text"> Financial/ Expenses Tracker</p>
-          <p class="card-text"><small class="text-muted"><b>HTML5/CSS, sass, Bootstrap, JavaScript, jQuery</b></small></p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="./img/visitor-log.png" class="card-img-top" alt="visitor-log" height="300px !important">
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://access-tracking-app.eu-gb.mybluemix.net/ui.html"> Visitor log/ Tracker</a></h5>
-          <p class="card-text">Corporate SPA Visitor's register / log (IBM inovator project)</p>
-          <p class="card-text"><small class="text-muted"><b>HTML/CSS, Bootstrap, JavaScript, Angular, IBM cloud & Database</b></small></p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="./img/vation.png" class="card-img-top" alt="vation" height="300px !important">
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://github.com/Ndkkqueenie/vation.git">Vation Mobile App</a></h5>
-          <p class="card-text">Fitness Android App for Vation</p>
-          <p class="card-text"><small class="text-muted"><b>React Native, JavaScript, expo, firebase</b></small></p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="./img/confusion.png" class="card-img-top" alt="confusion" height="300px !important">
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://github.com/Ndkkqueenie/react-native-conFusion.git">Ristorante con Fusion (Mobile App)</a></h5>
-          <p class="card-text">Android App Project for HKUST</p>
-          <p class="card-text"><small class="text-muted"><b>React Native, JavaScript, Redux, expo, express, Nodejs, Mongodb</b></small></p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="./img/localhost-home1.png" class="card-img-top" alt="confusion-web" height="300px !important">
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://ristorante-foods.netlify.app"> Ristorante con Fusion (Web App)</a></h5>
-          <p class="card-text">Web App for HKUST</p>
-          <p class="card-text"><small class="text-muted"><b>HTMl/CSS, sass, JavaScript, React, Redux, Nodejs, json-server</b></small></p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="./img/queendalin-dev.png" class="card-img-top" alt="queendalin-dev" height="300px !important">
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://queendalin-dev.netlify.app"> Queendalin Nduka</a></h5>
-          <p class="card-text">My Portfolio</p>
-          <p class="card-text"><small class="text-muted"><b>HTML/CSS, Bootstrap, JavaScript, jQuery, Netlify form</b></small></p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="./img/learn-smart.png" class="card-img-top" alt="learn-smart" height="300px !important">
-        <div class="card-body">
-          <h5 class="card-title">learnSmart</h5>
-          <p class="card-text">Browser Extension to generate short Quix / Note (Team project)</p>
-          <p class="card-text"><small class="text-muted">HTML/CSS, JavaScript, Python, AWS tools etc</small></p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="./img/note-app.png" class="card-img-top" alt="note-app" height="300px !important">
-        <div class="card-body">
-          <h5 class="card-title"><a href="notes-taking.netlify.app"> Simple Note App</a></h5>
-          <p class="card-text">Simple Note App</p>
-          <p class="card-text"><small class="text-muted">HTML/CSS, Bootstrap, JavaScript, jQuery, localStorage</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
- <!-- END GRID -->
-</div>
-
-<div></div>
-
-<!-- END MAIN -->
-</div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
